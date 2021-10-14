@@ -50,7 +50,7 @@ namespace Dungeon_n_Dragons_Genorator.Bot.Core
                 //Initiallizes the command halndler service
                 await services.GetRequiredService<CommandHandlerService>().InitiallizeAsync();
 
-                var token = "ODg1ODU0MDQ1NTk4Nzc3NDA1.YTtF3g.fO5i9GuxViObw_p9rbU-Ih5FDhs";
+                var token = "";
 
 
                 //Login the bot to the client and start the connection to it
